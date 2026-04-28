@@ -296,7 +296,7 @@ Two levels of testing cover the most common failure modes, plus a third category
 Each parser is tested against saved raw HTML/JSON snapshots pulled from the data lake. No network calls, so tests stay reproducible even when the upstream site changes its markup. Each parser is asserted on the basics: at least one record returned, every record has a valid 5-digit FIPS, every record has a non-empty name, and optional fields like party are allowed to be missing without breaking. Edge cases get their own fixtures — a directory page with a missing party field, a state portal that returns an empty array, a PDF page where two offices share a row.
 
 A small example. Given a fixture (`tests/fixtures/nc_sboe_sample.json`) like:
-
+JSON
 ```json
 {
   "election_date": "2024-11-05",
@@ -320,7 +320,7 @@ A small example. Given a fixture (`tests/fixtures/nc_sboe_sample.json`) like:
 ```
 
 The parser should produce a flat list of records — one per elected official, with party codes expanded and source/storage metadata attached:
-
+Python
 ```python
 [
     {
@@ -343,7 +343,7 @@ The parser should produce a flat list of records — one per elected official, w
 ```
 
 The test itself should spot-check the basics:
-
+Python
 ```python
 def test_parse_nc_sboe_returns_officials():
     raw = open("tests/fixtures/nc_sboe_sample.json").read()
