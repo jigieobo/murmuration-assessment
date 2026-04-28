@@ -1,0 +1,26 @@
+{
+  "election_date": "2024-11-05",
+  "results": [
+    {
+      "county_fips": "37001",
+      "county_name": "Alamance",
+      "office": "Sheriff",
+      "candidate": {"name": "Terry Johnson", "party": "REP"},
+      "elected": true
+    },
+    {
+      "county_fips": "37001",
+      "county_name": "Alamance",
+      "office": "Register of Deeds",
+      "candidate": {"name": "Maria Lopez", "party": "DEM"},
+      "elected": true
+    },
+    {
+      "county_fips": "37001",
+      "county_name": "Alamance",
+      "office": "Sheriff",
+      "candidate": {"name": "Sam Challenger", "party": "DEM"},
+      "elected": false
+    }
+  ]
+}
