@@ -183,14 +183,14 @@ The source strategy is trust-based: pull from the most authoritative source avai
 
 **Socrata portals, state GIS/election APIs.**
 
-- Structured supplemental data useful for validation and cross-reference. These are sites like Open Data Network. Coverage is uneven — strong in a handful of states, nonexistent in others.
+- Structured supplemental data useful for validation and cross-reference. These are sites like Open Data Network. Coverage is uneven, and is strong in a handful of states but limited in others.
 
 #### Tier 3 — Reference Aggregators
 
 **Ballotpedia and Wikipedia.**
 
 - Broad coverage of elected officials with structured data.
-- Not official, but actively maintained — Ballotpedia in particular has paid researchers.
+- Not official, but actively maintained. 
 - Ballotpedia has a paid API; free scraping is possible, but against ToS for commercial use, so licensing is worth exploring.
 - Good for gap-filling and cross-validation; should never be the sole source for any official.
 
@@ -390,6 +390,7 @@ def test_parse_nc_sboe_returns_officials():
     assert all(r["county_fips"] for r in results)
     assert all(r["full_name"].strip() for r in results)
 ```
+##This example is available in the `test` folder in the repository.
 
 The append-only data lake is what makes this cheap. Any newly discovered parser bug can be reproduced by pointing the parser at the snapshot from the day it broke, without re-fetching anything.
 
