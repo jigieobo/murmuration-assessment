@@ -207,27 +207,63 @@ The architecture is organized around a single idea: most of the work isn't fetch
 ### High-level flow
 
 ```
-Orchestrator (cron / Prefect)
-        │
-        ▼
-  Fetch raw content
-  → write to data lake (Amazon Lake Formation, Snowflake)
-  → log path + SHA-256 hash to collection_log
-        │
-  [hash unchanged since last run?]
-   YES → skip, update last_checked
-   NO  ↓
-  Parse & normalize
-  → per-record validation
-        │
-   pass               fail
-    ↓                   ↓
-  Reconcile         needs_review
-  (upsert)          queue
-    ↓
-  Data model
-  (officials, offices,
-   office_holders, …)
+                 +-----------------------------+
+                 | Orchestrator (Cron/Prefect) |
+                 +-------------+---------------+
+                               |
+                               v
+                 +-----------------------------+
+                 | Fetch Raw Content           |
+                 +-----------------------------+
+                               |
+                               v
+      +--------------------------------------------------+
+      | Write to Data Lake                               |
+      | (Amazon Lake Formation / Snowflake)              |
+      +--------------------------------------------------+
+                               |
+                               v
+      +--------------------------------------------------+
+      | Log path + SHA-256 hash to collection_log        |
+      +--------------------------------------------------+
+                               |
+                               v
+                  +-----------------------------+
+                  | Hash changed since last run? |
+                  +-------------+---------------+
+                                |
+                    +-----------+-----------+
+                    |                       |
+                  No (same)               Yes
+                    |                       |
+                    v                       v
+       +-----------------------+   +----------------------+
+       | Skip + update         |   | Parse & Normalize    |
+       | last_checked          |   +----------+-----------+
+       +-----------------------+              |
+                                              v
+                                  +----------------------+
+                                  | Per-record Validation |
+                                  +----------+-----------+
+                                             |
+                                  +----------+----------+
+                                  |                     |
+                                 Pass                 Fail
+                                  |                     |
+                                  v                     v
+                        +----------------+    +----------------+
+                        | Reconcile /    |    | Needs Review   |
+                        | Upsert Records |    | Queue          |
+                        +--------+-------+    +----------------+
+                                 |
+                                 v
+                     +---------------------------+
+                     | Core Data Model           |
+                     | - officials               |
+                     | - offices                 |
+                     | - office_holders          |
+                     | - sources                 |
+                     +---------------------------+
 ```
 
 ### Fetch and store raw
@@ -265,6 +301,7 @@ Reconciliation is where new fetches actually update the data model. Each validat
 The term lifecycle is worth making concrete, since it's the mechanism that actually keeps the data current as people leave and enter the office:
 
 ```
+Python pseudo code
 current = get_current_holder(office.id)
 if current and current.official_id != new_official.id:
     # Different person in the seat → close the old row, open a new one
@@ -273,7 +310,7 @@ if current and current.official_id != new_official.id:
 elif not current:
     open_office_holder(office, new_official, source=source_id)
 else:
-    # Same person, same seat → just refresh last_verified_at
+    # Same person, same seat → refresh last_verified_at
     touch_office_holder(current, source=source_id)
 ```
 
@@ -293,10 +330,9 @@ Two levels of testing cover the most common failure modes, plus a third category
 
 ### Parser unit tests
 
-Each parser is tested against saved raw HTML/JSON snapshots pulled from the data lake. No network calls, so tests stay reproducible even when the upstream site changes its markup. Each parser is asserted on the basics: at least one record returned, every record has a valid 5-digit FIPS, every record has a non-empty name, and optional fields like party are allowed to be missing without breaking. Edge cases get their own fixtures — a directory page with a missing party field, a state portal that returns an empty array, a PDF page where two offices share a row.
+Each parser is tested against saved raw HTML/JSON snapshots pulled from the data lake. No network calls, so tests stay reproducible even when the upstream site changes its markup. Each parser is tested on the basics: at least one record is returned, every record has a valid 5-digit FIPS, every record has a non-empty name, and optional fields like party may be missing without breaking. Edge cases get their own fixtures — a directory page with a missing party field, a state portal that returns an empty array, a PDF page where two offices share a row.
 
 A small example. Given a fixture (`tests/fixtures/nc_sboe_sample.json`) like:
-JSON
 ```json
 {
   "election_date": "2024-11-05",
@@ -320,8 +356,9 @@ JSON
 ```
 
 The parser should produce a flat list of records — one per elected official, with party codes expanded and source/storage metadata attached:
-Python
+
 ```python
+#Python
 [
     {
         "county_fips":  "37001",
@@ -342,9 +379,10 @@ Python
 ]
 ```
 
-The test itself should spot-check the basics:
-Python
+The test provides validations against the input file; all 3 checks should pass:
+
 ```python
+#Python
 def test_parse_nc_sboe_returns_officials():
     raw = open("tests/fixtures/nc_sboe_sample.json").read()
     results = parse_nc_sboe(raw)
