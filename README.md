@@ -301,7 +301,7 @@ Reconciliation is where new fetches actually update the data model. Each validat
 The term lifecycle is worth making concrete, since it's the mechanism that actually keeps the data current as people leave and enter the office:
 
 ```
-Python pseudo code
+#Python pseudo code
 current = get_current_holder(office.id)
 if current and current.official_id != new_official.id:
     # Different person in the seat → close the old row, open a new one
@@ -390,7 +390,8 @@ def test_parse_nc_sboe_returns_officials():
     assert all(r["county_fips"] for r in results)
     assert all(r["full_name"].strip() for r in results)
 ```
-##This example is available in the `test` folder in the repository.
+This example is available in the `test` folder in the repository.
+
 
 The append-only data lake is what makes this cheap. Any newly discovered parser bug can be reproduced by pointing the parser at the snapshot from the day it broke, without re-fetching anything.
 
