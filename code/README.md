@@ -2,7 +2,7 @@
 **Murmuration Technical Analyst Assessment — Part 2**
 
 A single-file Python pipeline that pulls Rhode Island (RI) municipal (muni) elected
-officials from the RI Secretary of State (Tier 1), cross-checks coverage
+officials from the RI Secretary of State (Tier 1), cross-check coverage
 against the RI Open Data Portal (Tier 2), and writes a **SQLite database**
 (`ri_officials.db`) that follows the Part 1 data model.
 
@@ -344,7 +344,7 @@ both map to the same canonical type.
 ### Sources used
 
 **Tier 1 reference — U.S. Census Bureau (2020 PL94-171).** Counties and
-municipalities are loop-fetched from `api.census.gov` so the seed data
+municipalities are loop-fetched from `api.census.gov`, so the seed data
 isn't hardcoded. RI's 5 counties come from the county endpoint; the 39
 cities/towns come from the county-subdivision endpoint, which for RI
 maps exactly to the operative local-government unit.
@@ -377,26 +377,26 @@ checks.
   entries with the reconciler's best fuzzy guess + score, and on
   user's confirmation INSERTs new (canonical, synonym) rows. Every
   confirmation becomes a new `(raw_title, canonical_name)` training
-  pair. Eventually a classifier replaces the rules-based fuzzy match.
+  pair. Eventually, a classifier replaces the rules-based fuzzy match.
 - **Term-lifecycle close-on-resignation via news monitoring.** The
   pipeline picks up mid-term changes only on the next scheduled run.
   News monitoring on a small set of feeds, routing "resigns" /
-  "appointed" mentions to a re-collection trigger for the affected
-  jurisdiction, would close that gap.
-- **Real entity resolution.** The MVP's per-muni fuzzy-name match at
+  "appointed" refers to a re-collection trigger for the affected
+  jurisdiction would close that gap.
+- **Real entity resolution.** The MVPs ' per-muni fuzzy-name match at
   threshold 0.92. With contextual features (same role,
-  overlapping terms, same party) plus a human-review queue for
+  overlapping terms, same party) plus a human review queue for
   ambiguous matches, "Robert Smith" / "Bob Smith" wouldn't become two
   rows.
 - **Parser robustness.** The parser is JSON-only. The reference
   implementation has a format-agnostic dispatcher (XLSX/CSV/JSON) with
-  a header-alias registry. Turning that into the single file would
+  a header-alias registry. Turning that into a single file would
   protect against the format drift state SOS sites are known for.
 
 ### Where I'd be nervous in production
 
 - **RI SOS URL stability.** State election sites move files between
-  cycles. If the source URL's change, would need to modify data acquisition approach.
+  cycles. If the source URL changes, we would need to modify the data acquisition approach.
   works. 
 - **Format drift on the SOS side.** The parser keys on a `(TOWN|CITY) OF`
   marker in contest names and a small set of party-code prefixes. A
@@ -409,7 +409,7 @@ checks.
   defuse this; the single-file MVP doesn't carry that yet.
 - **Tier 2 reference quality.** If `Gen24EX.xlsx` goes stale or the
   portal moves the file, the cross-check silently downgrades to "0
-  matched". Production should alert on a sudden spike in unmatched
+  matched". Production should alert on a sudden spike in the unmatched
   rate.
 - **Census API rate limits.** Without an API key, the Census API
   tolerates casual use but throttles aggressive automation. A
@@ -423,11 +423,6 @@ checks.
   type ∈ {city, town, …}, population, containing-county FK).
 - Made `offices.county_fips` nullable, added `offices.muni_id`, with
   a `CHECK` constraint enforcing exactly one is set.
-
-Plus three tables the design doc lists which the MVP carries because
-they earn their keep at scale: `office_type_synonyms` (fuzzy match
-backing), `needs_review` (failed-record provenance), `collection_log`
-(SHA-256 fetch audit + records_found / records_updated).
 
 `contact_info` and `addresses` tables exist but are empty because Rhode Island SOS
 election results don't carry contact data. Filling them needs a
@@ -443,24 +438,11 @@ python ri_officials_mvp.py self-test    # end-to-end smoke + behavior demo
 
 The unit test mirrors the `parse_nc_sboe_returns_officials` pattern
 from Section 4 of the Part 1 design doc — same shape, same contract
-assertions. The self-test exercises Census fetch loop, fuzzy title
+assertions. The self-test uses Census fetch loop, fuzzy title
 matcher, multi-seat top-N selection, party-prefix stripping, term
 lifecycle close-and-open on single-seat, post-load sanity checks, and
 Tier 2 cross-check against the bundled XLSX. Both run offline.
 
 ## AI usage note (per assignment policy)
 
-I used Claude (Sonnet 4) as a coding partner. I directed the
-architectural decisions (RI as the state choice; the
-`municipalities`-table extension; the fuzzy-match reconciler with a
-synonym table backing; two Tier 1 sources — Census for reference,
-SOS for officials — with `data.ri.gov` as Tier 2 cross-check;
-conservative name threshold favoring splits over merges; hard-fail
-on Census fetch errors; URL-only CLI with the bundled Tier 2 file)
-and verified each piece by running the pipeline end-to-end and
-inspecting the SQLite contents. The state-choice reasoning, the
-schema-deviation rationale, the source-tier argument, and the
-production-concerns and with-more-time bullets in this README are
-mine; the AI helped turn those decisions into the code and structure
-they ended up in.
-
+I used Claude CoWork (Opus 4.7) as a coding partner. The AI hallucinated source links, but I manually verified the sources and had to modify the data acquisition phase in my Tier 2 source because the one the AI suggested didn't exist, so I used an Excel source instead of a URL. I directed the architectural decisions for the deliverable, and the AI helped turn those decisions into the code and structure.
