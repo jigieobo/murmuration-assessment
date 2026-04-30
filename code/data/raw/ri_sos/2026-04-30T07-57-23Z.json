@@ -1,0 +1,81 @@
+{ "election_name" : "General Election", "election_date" : "November 05, 2024", "last_updated" : "November 22, 2024 05:00 PM", "precinct_count" : "12", "precincts_reporting" : "12", "contests" : [
+  { "name" : "Presidential Electors For:", "contest_number" : "1", "total_votes" : "16688", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Kamala D. Harris", "party_code" : "DEM", "votes" : "10749" }, 
+    { "name" : "Donald J. Trump", "party_code" : "REP", "votes" : "5382" }, 
+    { "name" : "Robert F. Kennedy, Jr.", "party_code" : "Ken", "votes" : "182" }, 
+    { "name" : "Jill Stein", "party_code" : "Grn", "votes" : "142" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "110" }, 
+    { "name" : "Chase Oliver", "party_code" : "Lib", "votes" : "75" }, 
+    { "name" : "Claudia De la Cruz", "party_code" : "S&L", "votes" : "34" }, 
+    { "name" : "Robert &quot;Robby&quot; Wells", "party_code" : "Par", "votes" : "14" } ] },
+  { "name" : "Senator in Congress", "contest_number" : "2", "total_votes" : "16178", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Sheldon Whitehouse", "party_code" : "DEM", "votes" : "10628" }, 
+    { "name" : "REP Patricia Morgan", "party_code" : "REP", "votes" : "5514" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "36" } ] },
+  { "name" : "Representative in Congress District 2", "contest_number" : "4", "total_votes" : "15978", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Seth Magaziner", "party_code" : "DEM", "votes" : "10745" }, 
+    { "name" : "REP Steven Corvi", "party_code" : "REP", "votes" : "5204" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "29" } ] },
+  { "name" : "Senator in General Assembly District 35", "contest_number" : "39", "total_votes" : "1098", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Bridget G. Valverde", "party_code" : "DEM", "votes" : "1052" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "46" } ] },
+  { "name" : "Senator in General Assembly District 37", "contest_number" : "41", "total_votes" : "12904", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Virginia S. Sosnowski", "party_code" : "DEM", "votes" : "8517" }, 
+    { "name" : "REP Raymond E. Gardner", "party_code" : "REP", "votes" : "4356" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "31" } ] },
+  { "name" : "Senator in General Assembly District 38", "contest_number" : "42", "total_votes" : "1477", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Victoria Gu", "party_code" : "DEM", "votes" : "960" }, 
+    { "name" : "REP Westin J. Place", "party_code" : "REP", "votes" : "516" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "1" } ] },
+  { "name" : "Representative in General Assembly District 33", "contest_number" : "75", "total_votes" : "4067", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Carol Hagan McEntee", "party_code" : "DEM", "votes" : "2512" }, 
+    { "name" : "REP Jessica Drew Day", "party_code" : "REP", "votes" : "1545" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "10" } ] },
+  { "name" : "Representative in General Assembly District 34", "contest_number" : "76", "total_votes" : "3446", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Teresa Tanzi", "party_code" : "DEM", "votes" : "2486" }, 
+    { "name" : "REP Joanne R. Forti", "party_code" : "REP", "votes" : "951" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "9" } ] },
+  { "name" : "Representative in General Assembly District 35", "contest_number" : "77", "total_votes" : "5519", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Kathleen A. Fogarty", "party_code" : "DEM", "votes" : "3427" }, 
+    { "name" : "REP Jennifer P. Nerbonne", "party_code" : "REP", "votes" : "2081" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "11" } ] },
+  { "name" : "Representative in General Assembly District 36", "contest_number" : "78", "total_votes" : "1955", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Tina L. Spears", "party_code" : "DEM", "votes" : "1885" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "70" } ] },
+  { "name" : "Town Council TOWN OF SOUTH KINGSTOWN", "contest_number" : "292", "total_votes" : "67107", "votes_allowed" : "5", "candidates" : [
+    { "name" : "DEM Deborah D. Bergner", "party_code" : "DEM", "votes" : "8696" }, 
+    { "name" : "DEM Rory H. McEntee", "party_code" : "DEM", "votes" : "7987" }, 
+    { "name" : "DEM Jay G. Wegimont", "party_code" : "DEM", "votes" : "7448" }, 
+    { "name" : "DEM Michael K. Marran", "party_code" : "DEM", "votes" : "7442" }, 
+    { "name" : "DEM Patricia A. Alley", "party_code" : "DEM", "votes" : "7207" }, 
+    { "name" : "REP Charles Gregory Sweet", "party_code" : "REP", "votes" : "6283" }, 
+    { "name" : "REP Sean O&#39;Donnell", "party_code" : "REP", "votes" : "4845" }, 
+    { "name" : "REP Michael E. Day", "party_code" : "REP", "votes" : "4838" }, 
+    { "name" : "REP Debra MacDowell", "party_code" : "REP", "votes" : "4443" }, 
+    { "name" : "REP Peter Phelps", "party_code" : "REP", "votes" : "4327" }, 
+    { "name" : "Ind Dorald W. Beasley", "party_code" : "Ind", "votes" : "3514" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "77" } ] },
+  { "name" : "School Committee TOWN OF SOUTH KINGSTOWN", "contest_number" : "293", "total_votes" : "41081", "votes_allowed" : "4", "candidates" : [
+    { "name" : "DEM Michelle Brousseau", "party_code" : "DEM", "votes" : "9062" }, 
+    { "name" : "DEM Paula J. Whitford", "party_code" : "DEM", "votes" : "8827" }, 
+    { "name" : "DEM Stewart A. Lander", "party_code" : "DEM", "votes" : "8450" }, 
+    { "name" : "DEM Bradley Shear", "party_code" : "DEM", "votes" : "8078" }, 
+    { "name" : "REP John Buehler", "party_code" : "REP", "votes" : "6440" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "224" } ] },
+  { "name" : "1. CONSTITUTIONAL CONVENTION", "contest_number" : "328", "total_votes" : "15439", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "10552" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "4887" } ] },
+  { "name" : "2. HIGHER EDUCATION FACILITIES - $160,500,000", "contest_number" : "329", "total_votes" : "15831", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "9970" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "5861" } ] },
+  { "name" : "3. HOUSING AND COMMUNITY OPPORTUNITY - $120,000,000", "contest_number" : "330", "total_votes" : "15820", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "10430" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "5390" } ] },
+  { "name" : "4. GREEN ECONOMY BONDS - $53,000,000", "contest_number" : "331", "total_votes" : "15849", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "11193" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "4656" } ] },
+  { "name" : "5. CULTURAL ARTS AND ECONOMY GRANT PROGRAM - $10,000,000", "contest_number" : "332", "total_votes" : "15809", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "9314" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "6495" }
+  ]}
+]}

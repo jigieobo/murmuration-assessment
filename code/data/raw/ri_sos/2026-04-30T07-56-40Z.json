@@ -1,0 +1,59 @@
+{
+  "election_name": "General Election",
+  "election_date": "November 05, 2024",
+  "contests": [
+    { "name": "Senator in General Assembly District 10",
+      "votes_allowed": "1",
+      "candidates": [
+        {"name": "DEM Walter S. Felag, Jr.", "party_code": "DEM", "votes": "2203"},
+        {"name": "REP Allyn E. Meyers",      "party_code": "REP", "votes": "1710"}
+      ]
+    },
+    { "name": "Mayor CITY OF PROVIDENCE",
+      "votes_allowed": "1",
+      "candidates": [
+        {"name": "DEM Brett Smiley", "party_code": "DEM", "votes": "26500"},
+        {"name": "REP Some Loser",   "party_code": "REP", "votes":  "4200"},
+        {"name": "Write-in",         "party_code": "NON", "votes":   "100"}
+      ]
+    },
+    { "name": "City Council CITY OF PROVIDENCE",
+      "votes_allowed": "3",
+      "candidates": [
+        {"name": "DEM First Council",  "party_code": "DEM", "votes": "8000"},
+        {"name": "DEM Second Council", "party_code": "DEM", "votes": "7500"},
+        {"name": "REP Third Council",  "party_code": "REP", "votes": "7000"},
+        {"name": "Ind Fourth Loser",   "party_code": "Ind", "votes": "5000"},
+        {"name": "Write-in",           "party_code": "NON", "votes":  "200"}
+      ]
+    },
+    { "name": "Town Clerk TOWN OF MIDDLETOWN",
+      "votes_allowed": "1",
+      "candidates": [
+        {"name": "Jane Roe",  "party_code": "NON", "votes": "5000"},
+        {"name": "Write-in",  "party_code": "NON", "votes":   "50"}
+      ]
+    },
+    { "name": "School Committee CITY OF NEWPORT",
+      "votes_allowed": "2",
+      "candidates": [
+        {"name": "Pat Doe",   "party_code": "NON", "votes": "5000"},
+        {"name": "Sam Roe",   "party_code": "NON", "votes": "4500"},
+        {"name": "Sad Loser", "party_code": "NON", "votes": "1000"}
+      ]
+    },
+    { "name": "Mayor TOWN OF ATLANTIS",
+      "votes_allowed": "1",
+      "candidates": [
+        {"name": "Ind Aquaman", "party_code": "Ind", "votes": "5000"}
+      ]
+    },
+    { "name": "1. CONSTITUTIONAL CONVENTION",
+      "votes_allowed": "1",
+      "candidates": [
+        {"name": "Approve", "party_code": "NON", "votes": "3000"},
+        {"name": "Reject",  "party_code": "NON", "votes": "5000"}
+      ]
+    }
+  ]
+}

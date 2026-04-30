@@ -1,0 +1,78 @@
+{ "election_name" : "General Election", "election_date" : "November 05, 2024", "last_updated" : "November 22, 2024 05:00 PM", "precinct_count" : "6", "precincts_reporting" : "6", "contests" : [
+  { "name" : "Presidential Electors For:", "contest_number" : "1", "total_votes" : "7205", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Donald J. Trump", "party_code" : "REP", "votes" : "3692" }, 
+    { "name" : "Kamala D. Harris", "party_code" : "DEM", "votes" : "3343" }, 
+    { "name" : "Robert F. Kennedy, Jr.", "party_code" : "Ken", "votes" : "78" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "30" }, 
+    { "name" : "Chase Oliver", "party_code" : "Lib", "votes" : "26" }, 
+    { "name" : "Jill Stein", "party_code" : "Grn", "votes" : "22" }, 
+    { "name" : "Claudia De la Cruz", "party_code" : "S&L", "votes" : "9" }, 
+    { "name" : "Robert &quot;Robby&quot; Wells", "party_code" : "Par", "votes" : "5" } ] },
+  { "name" : "Senator in Congress", "contest_number" : "2", "total_votes" : "6983", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Sheldon Whitehouse", "party_code" : "DEM", "votes" : "3521" }, 
+    { "name" : "REP Patricia Morgan", "party_code" : "REP", "votes" : "3455" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "7" } ] },
+  { "name" : "Representative in Congress District 1", "contest_number" : "3", "total_votes" : "6877", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Gabriel Amo", "party_code" : "DEM", "votes" : "3354" }, 
+    { "name" : "REP Allen R. Waters", "party_code" : "REP", "votes" : "3185" }, 
+    { "name" : "Ind C. D. Reynolds", "party_code" : "Ind", "votes" : "329" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "9" } ] },
+  { "name" : "Senator in General Assembly District 17", "contest_number" : "21", "total_votes" : "3923", "votes_allowed" : "1", "candidates" : [
+    { "name" : "REP Thomas J. Paolino", "party_code" : "REP", "votes" : "2371" }, 
+    { "name" : "DEM Cameron J. Deutsch", "party_code" : "DEM", "votes" : "1548" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "4" } ] },
+  { "name" : "Senator in General Assembly District 23", "contest_number" : "27", "total_votes" : "1690", "votes_allowed" : "1", "candidates" : [
+    { "name" : "REP Jessica de la Cruz", "party_code" : "REP", "votes" : "1054" }, 
+    { "name" : "DEM Lewis J. Pryeor", "party_code" : "DEM", "votes" : "632" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "4" } ] },
+  { "name" : "Senator in General Assembly District 24", "contest_number" : "28", "total_votes" : "1187", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Melissa Murray", "party_code" : "DEM", "votes" : "641" }, 
+    { "name" : "REP Craig J. Lacouture", "party_code" : "REP", "votes" : "545" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "1" } ] },
+  { "name" : "Representative in General Assembly District 48", "contest_number" : "90", "total_votes" : "5032", "votes_allowed" : "1", "candidates" : [
+    { "name" : "REP Brian C. Newberry", "party_code" : "REP", "votes" : "4854" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "178" } ] },
+  { "name" : "Representative in General Assembly District 49", "contest_number" : "91", "total_votes" : "570", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Ind Jon D. Brien", "party_code" : "Ind", "votes" : "478" }, 
+    { "name" : "Ind Michael Disney", "party_code" : "Ind", "votes" : "88" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "4" } ] },
+  { "name" : "Non-Partisan Town Administrator TOWN OF NORTH SMITHFIELD", "contest_number" : "261", "total_votes" : "6321", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Scott A. Gibbs", "party_code" : "NON", "votes" : "3181" }, 
+    { "name" : "Elizabeth W. Newberry", "party_code" : "NON", "votes" : "3112" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "28" } ] },
+  { "name" : "Non-Partisan Town Council TOWN OF NORTH SMITHFIELD", "contest_number" : "262", "total_votes" : "23515", "votes_allowed" : "5", "candidates" : [
+    { "name" : "Kimberly L. Alves", "party_code" : "NON", "votes" : "3501" }, 
+    { "name" : "Rebecca J. DeCristofaro", "party_code" : "NON", "votes" : "2805" }, 
+    { "name" : "John A. Beauregard", "party_code" : "NON", "votes" : "2624" }, 
+    { "name" : "David J. Punchak", "party_code" : "NON", "votes" : "2343" }, 
+    { "name" : "Claire V. O&#39;Hara", "party_code" : "NON", "votes" : "2339" }, 
+    { "name" : "Douglas B. Osier", "party_code" : "NON", "votes" : "2178" }, 
+    { "name" : "Joey Sevigny", "party_code" : "NON", "votes" : "2020" }, 
+    { "name" : "Anthony R. Guertin", "party_code" : "NON", "votes" : "1877" }, 
+    { "name" : "Ann Fieler Lilley", "party_code" : "NON", "votes" : "1873" }, 
+    { "name" : "Kevin Newton", "party_code" : "NON", "votes" : "1867" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "88" } ] },
+  { "name" : "Non-Partisan School Committee North Smithfield", "contest_number" : "263", "total_votes" : "13270", "votes_allowed" : "3", "candidates" : [
+    { "name" : "David de la Cruz", "party_code" : "NON", "votes" : "3508" }, 
+    { "name" : "Jean Meo", "party_code" : "NON", "votes" : "3439" }, 
+    { "name" : "Christopher Simpkins", "party_code" : "NON", "votes" : "2909" }, 
+    { "name" : "Evan Masse", "party_code" : "NON", "votes" : "1712" }, 
+    { "name" : "Bradley Trenchard", "party_code" : "NON", "votes" : "1617" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "85" } ] },
+  { "name" : "1. CONSTITUTIONAL CONVENTION", "contest_number" : "328", "total_votes" : "6490", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "4378" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "2112" } ] },
+  { "name" : "2. HIGHER EDUCATION FACILITIES - $160,500,000", "contest_number" : "329", "total_votes" : "6601", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3424" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "3177" } ] },
+  { "name" : "3. HOUSING AND COMMUNITY OPPORTUNITY - $120,000,000", "contest_number" : "330", "total_votes" : "6589", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "3468" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3121" } ] },
+  { "name" : "4. GREEN ECONOMY BONDS - $53,000,000", "contest_number" : "331", "total_votes" : "6570", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "3795" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "2775" } ] },
+  { "name" : "5. CULTURAL ARTS AND ECONOMY GRANT PROGRAM - $10,000,000", "contest_number" : "332", "total_votes" : "6562", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3735" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "2827" }
+  ]}
+]}

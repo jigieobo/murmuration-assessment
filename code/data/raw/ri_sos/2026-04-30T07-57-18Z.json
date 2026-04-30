@@ -1,0 +1,74 @@
+{ "election_name" : "General Election", "election_date" : "November 05, 2024", "last_updated" : "November 22, 2024 05:00 PM", "precinct_count" : "8", "precincts_reporting" : "8", "contests" : [
+  { "name" : "Presidential Electors For:", "contest_number" : "1", "total_votes" : "3683", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Kamala D. Harris", "party_code" : "DEM", "votes" : "2335" }, 
+    { "name" : "Donald J. Trump", "party_code" : "REP", "votes" : "1265" }, 
+    { "name" : "Robert F. Kennedy, Jr.", "party_code" : "Ken", "votes" : "43" }, 
+    { "name" : "Claudia De la Cruz", "party_code" : "S&L", "votes" : "12" }, 
+    { "name" : "Jill Stein", "party_code" : "Grn", "votes" : "10" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "10" }, 
+    { "name" : "Chase Oliver", "party_code" : "Lib", "votes" : "7" }, 
+    { "name" : "Robert &quot;Robby&quot; Wells", "party_code" : "Par", "votes" : "1" } ] },
+  { "name" : "Senator in Congress", "contest_number" : "2", "total_votes" : "3146", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Sheldon Whitehouse", "party_code" : "DEM", "votes" : "2297" }, 
+    { "name" : "REP Patricia Morgan", "party_code" : "REP", "votes" : "843" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "6" } ] },
+  { "name" : "Representative in Congress District 1", "contest_number" : "3", "total_votes" : "3233", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Gabriel Amo", "party_code" : "DEM", "votes" : "2304" }, 
+    { "name" : "REP Allen R. Waters", "party_code" : "REP", "votes" : "777" }, 
+    { "name" : "Ind C. D. Reynolds", "party_code" : "Ind", "votes" : "145" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "7" } ] },
+  { "name" : "Senator in General Assembly District 16", "contest_number" : "20", "total_votes" : "2798", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Jonathon Acosta", "party_code" : "DEM", "votes" : "2689" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "109" } ] },
+  { "name" : "Representative in General Assembly District 56", "contest_number" : "98", "total_votes" : "1838", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Joshua J. Giraldo", "party_code" : "DEM", "votes" : "1783" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "55" } ] },
+  { "name" : "Representative in General Assembly District 57", "contest_number" : "99", "total_votes" : "691", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Brandon T. Voas", "party_code" : "DEM", "votes" : "434" }, 
+    { "name" : "Ind James N. McLaughlin", "party_code" : "Ind", "votes" : "253" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "4" } ] },
+  { "name" : "Representative in General Assembly District 60", "contest_number" : "102", "total_votes" : "288", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Karen Alzate", "party_code" : "DEM", "votes" : "276" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "12" } ] },
+  { "name" : "Non-Partisan Mayor City of Central Falls", "contest_number" : "127", "total_votes" : "2875", "votes_allowed" : "1", "candidates" : [
+    { "name" : "L. Maria Rivera", "party_code" : "NON", "votes" : "2739" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "136" } ] },
+  { "name" : "Non-Partisan City Council - At Large City of Central Fal", "contest_number" : "128", "total_votes" : "3158", "votes_allowed" : "2", "candidates" : [
+    { "name" : "Tatiana Baena", "party_code" : "NON", "votes" : "2069" }, 
+    { "name" : "Laurilim Rosado Martinez", "party_code" : "NON", "votes" : "1000" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "89" } ] },
+  { "name" : "Non-Partisan City Council Central Falls Ward 1", "contest_number" : "129", "total_votes" : "607", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Alberto Rivas Lugo", "party_code" : "NON", "votes" : "593" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "14" } ] },
+  { "name" : "Non-Partisan City Council Central Falls Ward 2", "contest_number" : "130", "total_votes" : "584", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Robert A. Ferri", "party_code" : "NON", "votes" : "556" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "28" } ] },
+  { "name" : "Non-Partisan City Council Central Falls Ward 3", "contest_number" : "131", "total_votes" : "419", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Kevin K. Kazarian", "party_code" : "NON", "votes" : "404" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "15" } ] },
+  { "name" : "Non-Partisan City Council Central Falls Ward 4", "contest_number" : "132", "total_votes" : "454", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Luz Eneida Velez Garcia", "party_code" : "NON", "votes" : "441" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "13" } ] },
+  { "name" : "Non-Partisan City Council Central Falls Ward 5", "contest_number" : "133", "total_votes" : "545", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Rafael Peguero", "party_code" : "NON", "votes" : "526" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "19" } ] },
+  { "name" : "1. CONSTITUTIONAL CONVENTION", "contest_number" : "328", "total_votes" : "2836", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "1701" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1135" } ] },
+  { "name" : "2. HIGHER EDUCATION FACILITIES - $160,500,000", "contest_number" : "329", "total_votes" : "2921", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "2345" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "576" } ] },
+  { "name" : "3. HOUSING AND COMMUNITY OPPORTUNITY - $120,000,000", "contest_number" : "330", "total_votes" : "2942", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "2538" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "404" } ] },
+  { "name" : "4. GREEN ECONOMY BONDS - $53,000,000", "contest_number" : "331", "total_votes" : "2916", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "2402" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "514" } ] },
+  { "name" : "5. CULTURAL ARTS AND ECONOMY GRANT PROGRAM - $10,000,000", "contest_number" : "332", "total_votes" : "3175", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "2457" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "718" } ] },
+  { "name" : "6. SCHOOLS AND SCHOOL FACILITIES City of Central Falls", "contest_number" : "338", "total_votes" : "3216", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "2896" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "320" }
+  ]}
+]}

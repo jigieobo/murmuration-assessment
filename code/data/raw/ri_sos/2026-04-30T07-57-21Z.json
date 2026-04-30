@@ -1,0 +1,71 @@
+{ "election_name" : "General Election", "election_date" : "November 05, 2024", "last_updated" : "November 22, 2024 05:00 PM", "precinct_count" : "6", "precincts_reporting" : "6", "contests" : [
+  { "name" : "Presidential Electors For:", "contest_number" : "1", "total_votes" : "8032", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Kamala D. Harris", "party_code" : "DEM", "votes" : "4968" }, 
+    { "name" : "Donald J. Trump", "party_code" : "REP", "votes" : "2832" }, 
+    { "name" : "Robert F. Kennedy, Jr.", "party_code" : "Ken", "votes" : "94" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "43" }, 
+    { "name" : "Chase Oliver", "party_code" : "Lib", "votes" : "42" }, 
+    { "name" : "Jill Stein", "party_code" : "Grn", "votes" : "35" }, 
+    { "name" : "Claudia De la Cruz", "party_code" : "S&L", "votes" : "10" }, 
+    { "name" : "Robert &quot;Robby&quot; Wells", "party_code" : "Par", "votes" : "8" } ] },
+  { "name" : "Senator in Congress", "contest_number" : "2", "total_votes" : "7733", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Sheldon Whitehouse", "party_code" : "DEM", "votes" : "4965" }, 
+    { "name" : "REP Patricia Morgan", "party_code" : "REP", "votes" : "2759" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "9" } ] },
+  { "name" : "Representative in Congress District 1", "contest_number" : "3", "total_votes" : "7541", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Gabriel Amo", "party_code" : "DEM", "votes" : "4749" }, 
+    { "name" : "REP Allen R. Waters", "party_code" : "REP", "votes" : "2403" }, 
+    { "name" : "Ind C. D. Reynolds", "party_code" : "Ind", "votes" : "375" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "14" } ] },
+  { "name" : "Senator in General Assembly District 12", "contest_number" : "16", "total_votes" : "6146", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Louis DiPalma", "party_code" : "DEM", "votes" : "5929" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "217" } ] },
+  { "name" : "Representative in General Assembly District 72", "contest_number" : "114", "total_votes" : "2152", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Terri-Denise Cortvriend", "party_code" : "DEM", "votes" : "2071" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "81" } ] },
+  { "name" : "Representative in General Assembly District 73", "contest_number" : "115", "total_votes" : "1112", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Marvin L. Abney", "party_code" : "DEM", "votes" : "1082" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "30" } ] },
+  { "name" : "Representative in General Assembly District 74", "contest_number" : "116", "total_votes" : "2399", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Alex S. Finkelman", "party_code" : "DEM", "votes" : "2297" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "102" } ] },
+  { "name" : "Non-Partisan Town Council TOWN OF MIDDLETOWN", "contest_number" : "233", "total_votes" : "31845", "votes_allowed" : "7", "candidates" : [
+    { "name" : "Barbara A. VonVillas", "party_code" : "NON", "votes" : "3514" }, 
+    { "name" : "Paul M. Rodrigues", "party_code" : "NON", "votes" : "3512" }, 
+    { "name" : "Thomas P. Welch, III", "party_code" : "NON", "votes" : "3419" }, 
+    { "name" : "Peter D. Connerton, Sr.", "party_code" : "NON", "votes" : "3240" }, 
+    { "name" : "Dennis B. Turano", "party_code" : "NON", "votes" : "3191" }, 
+    { "name" : "Christopher Logan", "party_code" : "NON", "votes" : "2873" }, 
+    { "name" : "Charles R. Roberts", "party_code" : "NON", "votes" : "2847" }, 
+    { "name" : "Leonidas Amarant", "party_code" : "NON", "votes" : "2531" }, 
+    { "name" : "Antone C. Viveiros", "party_code" : "NON", "votes" : "2191" }, 
+    { "name" : "Lawrence Frank", "party_code" : "NON", "votes" : "2165" }, 
+    { "name" : "Bryan Hoffman", "party_code" : "NON", "votes" : "1874" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "488" } ] },
+  { "name" : "Non-Partisan School Committee TOWN OF MIDDLETOWN", "contest_number" : "234", "total_votes" : "8416", "votes_allowed" : "2", "candidates" : [
+    { "name" : "Tami E. Holden", "party_code" : "NON", "votes" : "4196" }, 
+    { "name" : "William Nash", "party_code" : "NON", "votes" : "4131" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "89" } ] },
+  { "name" : "1. CONSTITUTIONAL CONVENTION", "contest_number" : "328", "total_votes" : "7176", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "4641" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "2535" } ] },
+  { "name" : "2. HIGHER EDUCATION FACILITIES - $160,500,000", "contest_number" : "329", "total_votes" : "7415", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "4285" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3130" } ] },
+  { "name" : "3. HOUSING AND COMMUNITY OPPORTUNITY - $120,000,000", "contest_number" : "330", "total_votes" : "7458", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "5093" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "2365" } ] },
+  { "name" : "4. GREEN ECONOMY BONDS - $53,000,000", "contest_number" : "331", "total_votes" : "7452", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "5184" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "2268" } ] },
+  { "name" : "5. CULTURAL ARTS AND ECONOMY GRANT PROGRAM - $10,000,000", "contest_number" : "332", "total_votes" : "7394", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "4028" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3366" } ] },
+  { "name" : "6. Number; Selection and Term of Members", "contest_number" : "404", "total_votes" : "7186", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3851" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "3335" } ] },
+  { "name" : "7. School Committee - Number and Election of Members", "contest_number" : "405", "total_votes" : "7195", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3777" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "3418" }
+  ]}
+]}

@@ -1,0 +1,64 @@
+{ "election_name" : "General Election", "election_date" : "November 05, 2024", "last_updated" : "November 22, 2024 05:00 PM", "precinct_count" : "6", "precincts_reporting" : "6", "contests" : [
+  { "name" : "Presidential Electors For:", "contest_number" : "1", "total_votes" : "8549", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Kamala D. Harris", "party_code" : "DEM", "votes" : "5089" }, 
+    { "name" : "Donald J. Trump", "party_code" : "REP", "votes" : "3203" }, 
+    { "name" : "Robert F. Kennedy, Jr.", "party_code" : "Ken", "votes" : "74" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "66" }, 
+    { "name" : "Jill Stein", "party_code" : "Grn", "votes" : "60" }, 
+    { "name" : "Chase Oliver", "party_code" : "Lib", "votes" : "42" }, 
+    { "name" : "Claudia De la Cruz", "party_code" : "S&L", "votes" : "11" }, 
+    { "name" : "Robert &quot;Robby&quot; Wells", "party_code" : "Par", "votes" : "4" } ] },
+  { "name" : "Senator in Congress", "contest_number" : "2", "total_votes" : "8412", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Sheldon Whitehouse", "party_code" : "DEM", "votes" : "5115" }, 
+    { "name" : "REP Patricia Morgan", "party_code" : "REP", "votes" : "3276" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "21" } ] },
+  { "name" : "Representative in Congress District 2", "contest_number" : "4", "total_votes" : "8351", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Seth Magaziner", "party_code" : "DEM", "votes" : "5170" }, 
+    { "name" : "REP Steven Corvi", "party_code" : "REP", "votes" : "3162" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "19" } ] },
+  { "name" : "Senator in General Assembly District 35", "contest_number" : "39", "total_votes" : "6211", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Bridget G. Valverde", "party_code" : "DEM", "votes" : "5844" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "367" } ] },
+  { "name" : "Representative in General Assembly District 24", "contest_number" : "66", "total_votes" : "568", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Evan Patrick Shanley", "party_code" : "DEM", "votes" : "538" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "30" } ] },
+  { "name" : "Representative in General Assembly District 30", "contest_number" : "72", "total_votes" : "5579", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Justine Caldwell", "party_code" : "DEM", "votes" : "5222" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "357" } ] },
+  { "name" : "Town Council TOWN OF EAST GREENWICH", "contest_number" : "179", "total_votes" : "29591", "votes_allowed" : "5", "candidates" : [
+    { "name" : "DEM Mark Schwager", "party_code" : "DEM", "votes" : "4863" }, 
+    { "name" : "DEM Michael Patrick Donegan", "party_code" : "DEM", "votes" : "4771" }, 
+    { "name" : "DEM Michael J. Zarrella", "party_code" : "DEM", "votes" : "4740" }, 
+    { "name" : "DEM Renu Englehart", "party_code" : "DEM", "votes" : "4142" }, 
+    { "name" : "DEM Caryn P. Corenthal", "party_code" : "DEM", "votes" : "4047" }, 
+    { "name" : "REP Peter G. Rodgers", "party_code" : "REP", "votes" : "3612" }, 
+    { "name" : "REP Kurt R. Hamel", "party_code" : "REP", "votes" : "3228" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "188" } ] },
+  { "name" : "School Committee TOWN OF EAST GREENWICH", "contest_number" : "180", "total_votes" : "16972", "votes_allowed" : "3", "candidates" : [
+    { "name" : "DEM Timothy F. Munoz", "party_code" : "DEM", "votes" : "4439" }, 
+    { "name" : "DEM Kevin D. Wright", "party_code" : "DEM", "votes" : "4279" }, 
+    { "name" : "DEM William J. Hangan", "party_code" : "DEM", "votes" : "4178" }, 
+    { "name" : "REP Victoria Nguyen", "party_code" : "REP", "votes" : "3943" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "133" } ] },
+  { "name" : "School Committee Town of East Greenwich", "contest_number" : "181", "total_votes" : "7725", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Melissa Larsen", "party_code" : "DEM", "votes" : "3619" }, 
+    { "name" : "REP Schuyler C. Weiss", "party_code" : "REP", "votes" : "2863" }, 
+    { "name" : "Ind Jessica A. Brough", "party_code" : "Ind", "votes" : "1232" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "11" } ] },
+  { "name" : "1. CONSTITUTIONAL CONVENTION", "contest_number" : "328", "total_votes" : "7941", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "4994" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "2947" } ] },
+  { "name" : "2. HIGHER EDUCATION FACILITIES - $160,500,000", "contest_number" : "329", "total_votes" : "8168", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "5234" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "2934" } ] },
+  { "name" : "3. HOUSING AND COMMUNITY OPPORTUNITY - $120,000,000", "contest_number" : "330", "total_votes" : "8132", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "4812" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3320" } ] },
+  { "name" : "4. GREEN ECONOMY BONDS - $53,000,000", "contest_number" : "331", "total_votes" : "8173", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "5760" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "2413" } ] },
+  { "name" : "5. CULTURAL ARTS AND ECONOMY GRANT PROGRAM - $10,000,000", "contest_number" : "332", "total_votes" : "8136", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "4523" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3613" }
+  ]}
+]}

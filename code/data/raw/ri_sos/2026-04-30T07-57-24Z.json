@@ -1,0 +1,130 @@
+{ "election_name" : "General Election", "election_date" : "November 05, 2024", "last_updated" : "November 22, 2024 05:00 PM", "precinct_count" : "8", "precincts_reporting" : "8", "contests" : [
+  { "name" : "Presidential Electors For:", "contest_number" : "1", "total_votes" : "12621", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Kamala D. Harris", "party_code" : "DEM", "votes" : "6653" }, 
+    { "name" : "Donald J. Trump", "party_code" : "REP", "votes" : "5664" }, 
+    { "name" : "Robert F. Kennedy, Jr.", "party_code" : "Ken", "votes" : "117" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "61" }, 
+    { "name" : "Jill Stein", "party_code" : "Grn", "votes" : "52" }, 
+    { "name" : "Chase Oliver", "party_code" : "Lib", "votes" : "38" }, 
+    { "name" : "Claudia De la Cruz", "party_code" : "S&L", "votes" : "23" }, 
+    { "name" : "Robert &quot;Robby&quot; Wells", "party_code" : "Par", "votes" : "13" } ] },
+  { "name" : "Senator in Congress", "contest_number" : "2", "total_votes" : "12129", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Sheldon Whitehouse", "party_code" : "DEM", "votes" : "6918" }, 
+    { "name" : "REP Patricia Morgan", "party_code" : "REP", "votes" : "5199" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "12" } ] },
+  { "name" : "Representative in Congress District 2", "contest_number" : "4", "total_votes" : "11893", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Seth Magaziner", "party_code" : "DEM", "votes" : "6917" }, 
+    { "name" : "REP Steven Corvi", "party_code" : "REP", "votes" : "4967" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "9" } ] },
+  { "name" : "Senator in General Assembly District 38", "contest_number" : "42", "total_votes" : "12069", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Victoria Gu", "party_code" : "DEM", "votes" : "6897" }, 
+    { "name" : "REP Westin J. Place", "party_code" : "REP", "votes" : "5160" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "12" } ] },
+  { "name" : "Representative in General Assembly District 36", "contest_number" : "78", "total_votes" : "658", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Tina L. Spears", "party_code" : "DEM", "votes" : "623" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "35" } ] },
+  { "name" : "Representative in General Assembly District 37", "contest_number" : "79", "total_votes" : "6204", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Samuel Angelo Azzinaro", "party_code" : "DEM", "votes" : "5978" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "226" } ] },
+  { "name" : "Representative in General Assembly District 38", "contest_number" : "80", "total_votes" : "2523", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Brian Patrick Kennedy", "party_code" : "DEM", "votes" : "2443" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "80" } ] },
+  { "name" : "School Committee Town of Westerly", "contest_number" : "315", "total_votes" : "33088", "votes_allowed" : "4", "candidates" : [
+    { "name" : "DEM Timothy C. Killam", "party_code" : "DEM", "votes" : "6281" }, 
+    { "name" : "DEM Angela B. Goethals", "party_code" : "DEM", "votes" : "5918" }, 
+    { "name" : "DEM Peter L. Nero", "party_code" : "DEM", "votes" : "5864" }, 
+    { "name" : "REP Kristi Walston", "party_code" : "REP", "votes" : "5476" }, 
+    { "name" : "REP Joseph Jackson", "party_code" : "REP", "votes" : "4797" }, 
+    { "name" : "REP Crystal Jackson", "party_code" : "REP", "votes" : "4634" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "118" } ] },
+  { "name" : "Town Council TOWN OF WESTERLY", "contest_number" : "316", "total_votes" : "55487", "votes_allowed" : "7", "candidates" : [
+    { "name" : "DEM Mary E. Scialabba", "party_code" : "DEM", "votes" : "5698" }, 
+    { "name" : "REP Dylan J. LaPietra", "party_code" : "REP", "votes" : "5466" }, 
+    { "name" : "DEM Christopher Duhamel", "party_code" : "DEM", "votes" : "5226" }, 
+    { "name" : "DEM Michael T. Niemeyer", "party_code" : "DEM", "votes" : "4857" }, 
+    { "name" : "DEM Alexandra Healy", "party_code" : "DEM", "votes" : "4505" }, 
+    { "name" : "REP Rose Van Dover", "party_code" : "REP", "votes" : "4492" }, 
+    { "name" : "Ind William J. Aiello", "party_code" : "Ind", "votes" : "4437" }, 
+    { "name" : "Ind Jean Leo Gagnier", "party_code" : "Ind", "votes" : "4406" }, 
+    { "name" : "REP A. Frederick Provost", "party_code" : "REP", "votes" : "4326" }, 
+    { "name" : "DEM James G. Nicholas", "party_code" : "DEM", "votes" : "4260" }, 
+    { "name" : "DEM Joy L. Cordio", "party_code" : "DEM", "votes" : "4116" }, 
+    { "name" : "DEM Robert L. Lombardo", "party_code" : "DEM", "votes" : "3580" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "118" } ] },
+  { "name" : "1. CONSTITUTIONAL CONVENTION", "contest_number" : "328", "total_votes" : "11148", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "6849" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "4299" } ] },
+  { "name" : "2. HIGHER EDUCATION FACILITIES - $160,500,000", "contest_number" : "329", "total_votes" : "11444", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "6860" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "4584" } ] },
+  { "name" : "3. HOUSING AND COMMUNITY OPPORTUNITY - $120,000,000", "contest_number" : "330", "total_votes" : "11419", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "7392" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "4027" } ] },
+  { "name" : "4. GREEN ECONOMY BONDS - $53,000,000", "contest_number" : "331", "total_votes" : "11379", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "7491" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3888" } ] },
+  { "name" : "5. CULTURAL ARTS AND ECONOMY GRANT PROGRAM - $10,000,000", "contest_number" : "332", "total_votes" : "11295", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "5873" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "5422" } ] },
+  { "name" : "6. FINANCE OF INFRASTRUCTURE IMPROVEMENTS $18,000,000", "contest_number" : "426", "total_votes" : "11438", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "9114" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "2324" } ] },
+  { "name" : "7. RIGHTS-OF-WAY TO SHORELINE", "contest_number" : "427", "total_votes" : "11271", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "8531" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "2740" } ] },
+  { "name" : "8. OATH OF OFFICE", "contest_number" : "428", "total_votes" : "11157", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "9686" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1471" } ] },
+  { "name" : "9. TOWN COUNCIL TERM LIMITS", "contest_number" : "429", "total_votes" : "11356", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "9470" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1886" } ] },
+  { "name" : "10. TOWN COUNCIL AND SCHOOL COMMITTEE VACANCIES", "contest_number" : "430", "total_votes" : "11329", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "9198" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "2131" } ] },
+  { "name" : "11. OPEN CITIZEN&#39;S COMMENT", "contest_number" : "431", "total_votes" : "11288", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "9920" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1368" } ] },
+  { "name" : "12. SUBMISSION OF PROPOSED TOWN AND SCHOOL BUDGETS", "contest_number" : "432", "total_votes" : "11236", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "10058" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1178" } ] },
+  { "name" : "13. ANNUAL BUDGET AND MAJOR TOWN PROJECTS ANNUAL REPORT", "contest_number" : "433", "total_votes" : "11123", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "9991" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1132" } ] },
+  { "name" : "14. JOB DESCRIPTIONS", "contest_number" : "434", "total_votes" : "11335", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "10307" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1028" } ] },
+  { "name" : "15. GROUNDS FOR RECALL FROM OFFICE", "contest_number" : "435", "total_votes" : "10867", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "9637" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1230" } ] },
+  { "name" : "16. RECALL ELECTION PROCESS", "contest_number" : "436", "total_votes" : "10416", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "6618" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3798" } ] },
+  { "name" : "17. VOTER INITIATIVE PETITION", "contest_number" : "437", "total_votes" : "10348", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "8578" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1770" } ] },
+  { "name" : "18. FINANCE DEPARTMENT REPORTING", "contest_number" : "438", "total_votes" : "10703", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "8884" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1819" } ] },
+  { "name" : "19. POLICE OFFICERS", "contest_number" : "439", "total_votes" : "10853", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "7498" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3355" } ] },
+  { "name" : "20. CONSTABLES", "contest_number" : "440", "total_votes" : "10649", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "9046" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1603" } ] },
+  { "name" : "21. DEPARTMENT OF DEVELOPMENT SERVICES", "contest_number" : "441", "total_votes" : "10470", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "8079" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "2391" } ] },
+  { "name" : "22. TOWN CHARTER AMENDMENTS", "contest_number" : "442", "total_votes" : "10675", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "8997" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1678" } ] },
+  { "name" : "23. PUBLICATION OF PROPOSED ORDINANCE AMENDMENTS", "contest_number" : "443", "total_votes" : "10561", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "7134" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3427" } ] },
+  { "name" : "24. TOWN OFFICE, DEPARTMENT OR AGENCY", "contest_number" : "444", "total_votes" : "10457", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "7283" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3174" } ] },
+  { "name" : "25. SCHOOL COMMITTEE SALARIES", "contest_number" : "445", "total_votes" : "11136", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "5885" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "5251" }
+  ]}
+]}

@@ -1,0 +1,107 @@
+{ "election_name" : "General Election", "election_date" : "November 05, 2024", "last_updated" : "November 22, 2024 05:00 PM", "precinct_count" : "13", "precincts_reporting" : "13", "contests" : [
+  { "name" : "Presidential Electors For:", "contest_number" : "1", "total_votes" : "13370", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Donald J. Trump", "party_code" : "REP", "votes" : "6650" }, 
+    { "name" : "Kamala D. Harris", "party_code" : "DEM", "votes" : "6434" }, 
+    { "name" : "Robert F. Kennedy, Jr.", "party_code" : "Ken", "votes" : "129" }, 
+    { "name" : "Jill Stein", "party_code" : "Grn", "votes" : "60" }, 
+    { "name" : "Chase Oliver", "party_code" : "Lib", "votes" : "33" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "30" }, 
+    { "name" : "Claudia De la Cruz", "party_code" : "S&L", "votes" : "27" }, 
+    { "name" : "Robert &quot;Robby&quot; Wells", "party_code" : "Par", "votes" : "7" } ] },
+  { "name" : "Senator in Congress", "contest_number" : "2", "total_votes" : "12495", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Sheldon Whitehouse", "party_code" : "DEM", "votes" : "6927" }, 
+    { "name" : "REP Patricia Morgan", "party_code" : "REP", "votes" : "5538" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "30" } ] },
+  { "name" : "Representative in Congress District 1", "contest_number" : "3", "total_votes" : "12105", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Gabriel Amo", "party_code" : "DEM", "votes" : "6317" }, 
+    { "name" : "REP Allen R. Waters", "party_code" : "REP", "votes" : "5087" }, 
+    { "name" : "Ind C. D. Reynolds", "party_code" : "Ind", "votes" : "681" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "20" } ] },
+  { "name" : "Senator in General Assembly District 20", "contest_number" : "24", "total_votes" : "4652", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Brian J. Thompson", "party_code" : "DEM", "votes" : "4445" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "207" } ] },
+  { "name" : "Senator in General Assembly District 24", "contest_number" : "28", "total_votes" : "6572", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Melissa Murray", "party_code" : "DEM", "votes" : "3835" }, 
+    { "name" : "REP Craig J. Lacouture", "party_code" : "REP", "votes" : "2714" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "23" } ] },
+  { "name" : "Representative in General Assembly District 49", "contest_number" : "91", "total_votes" : "2952", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Ind Jon D. Brien", "party_code" : "Ind", "votes" : "2275" }, 
+    { "name" : "Ind Michael Disney", "party_code" : "Ind", "votes" : "647" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "30" } ] },
+  { "name" : "Representative in General Assembly District 50", "contest_number" : "92", "total_votes" : "3683", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Stephen M. Casey", "party_code" : "DEM", "votes" : "3497" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "186" } ] },
+  { "name" : "Representative in General Assembly District 51", "contest_number" : "93", "total_votes" : "3521", "votes_allowed" : "1", "candidates" : [
+    { "name" : "DEM Robert D. Phillips", "party_code" : "DEM", "votes" : "3368" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "153" } ] },
+  { "name" : "Non-Partisan Mayor City of Woonsocket", "contest_number" : "325", "total_votes" : "11869", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Christopher A. Beauchamp", "party_code" : "NON", "votes" : "6081" }, 
+    { "name" : "John F. Ward", "party_code" : "NON", "votes" : "5676" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "112" } ] },
+  { "name" : "Non-Partisan City Council City of Woonsocket", "contest_number" : "326", "total_votes" : "53521", "votes_allowed" : "7", "candidates" : [
+    { "name" : "Valerie Gonzalez", "party_code" : "NON", "votes" : "5389" }, 
+    { "name" : "James C. Cournoyer", "party_code" : "NON", "votes" : "4383" }, 
+    { "name" : "Daniel M. Gendron", "party_code" : "NON", "votes" : "4375" }, 
+    { "name" : "Sharon Lenette Harmon", "party_code" : "NON", "votes" : "4313" }, 
+    { "name" : "Michael N. Dubois", "party_code" : "NON", "votes" : "4281" }, 
+    { "name" : "Denise D. Sierra", "party_code" : "NON", "votes" : "4105" }, 
+    { "name" : "Kristina A. Fox", "party_code" : "NON", "votes" : "3922" }, 
+    { "name" : "Shahbaz Raja", "party_code" : "NON", "votes" : "3908" }, 
+    { "name" : "Roger G. Jalette, Sr.", "party_code" : "NON", "votes" : "3770" }, 
+    { "name" : "Michelle M. Sztabor", "party_code" : "NON", "votes" : "3712" }, 
+    { "name" : "Christopher J. Mellen", "party_code" : "NON", "votes" : "3362" }, 
+    { "name" : "Damon S. Flynn", "party_code" : "NON", "votes" : "3153" }, 
+    { "name" : "Robert R. Moreau", "party_code" : "NON", "votes" : "2595" }, 
+    { "name" : "Ricki Chevalier", "party_code" : "NON", "votes" : "1933" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "320" } ] },
+  { "name" : "Non-Partisan School Committee City of Woonsocket", "contest_number" : "327", "total_votes" : "28326", "votes_allowed" : "5", "candidates" : [
+    { "name" : "Amie L. Costa", "party_code" : "NON", "votes" : "6126" }, 
+    { "name" : "Paul A. Bourget", "party_code" : "NON", "votes" : "5979" }, 
+    { "name" : "Lynn B. Kapiskas", "party_code" : "NON", "votes" : "5452" }, 
+    { "name" : "Donald G. Burke", "party_code" : "NON", "votes" : "5323" }, 
+    { "name" : "Alan M. LeClaire", "party_code" : "NON", "votes" : "5102" }, 
+    { "name" : "Write-in", "party_code" : "NON", "votes" : "344" } ] },
+  { "name" : "1. CONSTITUTIONAL CONVENTION", "contest_number" : "328", "total_votes" : "11404", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "6466" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "4938" } ] },
+  { "name" : "2. HIGHER EDUCATION FACILITIES - $160,500,000", "contest_number" : "329", "total_votes" : "11760", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "6948" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "4812" } ] },
+  { "name" : "3. HOUSING AND COMMUNITY OPPORTUNITY - $120,000,000", "contest_number" : "330", "total_votes" : "11743", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "8139" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3604" } ] },
+  { "name" : "4. GREEN ECONOMY BONDS - $53,000,000", "contest_number" : "331", "total_votes" : "11767", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "7622" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "4145" } ] },
+  { "name" : "5. CULTURAL ARTS AND ECONOMY GRANT PROGRAM - $10,000,000", "contest_number" : "332", "total_votes" : "11713", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "6769" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "4944" } ] },
+  { "name" : "6. GENDER NEUTRALITY", "contest_number" : "446", "total_votes" : "11869", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "6459" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "5410" } ] },
+  { "name" : "7. MAYOR AND COUNCIL VACANCIES", "contest_number" : "447", "total_votes" : "11496", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "7792" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3704" } ] },
+  { "name" : "8.  BUDGET ORDINANCE PASSAGE", "contest_number" : "448", "total_votes" : "10939", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "7247" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3692" } ] },
+  { "name" : "9. PROVIDENCE PLANTATION(S) REMOVAL", "contest_number" : "449", "total_votes" : "11250", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Reject", "party_code" : "NON", "votes" : "5834" }, 
+    { "name" : "Approve", "party_code" : "NON", "votes" : "5416" } ] },
+  { "name" : "10. MEETING NOTICES", "contest_number" : "450", "total_votes" : "11057", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "9016" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "2041" } ] },
+  { "name" : "11. GRANT APPLICATION APPROVAL", "contest_number" : "451", "total_votes" : "10718", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "7941" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "2777" } ] },
+  { "name" : "12. MAYORAL TERM LIMIT", "contest_number" : "452", "total_votes" : "11044", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "8469" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "2575" } ] },
+  { "name" : "13. CITY PURCHASING LIMITS", "contest_number" : "453", "total_votes" : "10993", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "7810" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "3183" } ] },
+  { "name" : "14. OATH OF OFFICE", "contest_number" : "454", "total_votes" : "11190", "votes_allowed" : "1", "candidates" : [
+    { "name" : "Approve", "party_code" : "NON", "votes" : "9593" }, 
+    { "name" : "Reject", "party_code" : "NON", "votes" : "1597" }
+  ]}
+]}
